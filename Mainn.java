@@ -19,7 +19,7 @@ public class Mainn {
 	        System.out.println("0. Salir");
 	        System.out.print("Elige: ");
 	        eleccion = sc.nextInt();
-	        sc.nextLine(); // limpiar buffer
+	        sc.nextLine();
 
 	        if (eleccion == 1) {
 	            System.out.println("¿Qué animal quieres añadir?");
