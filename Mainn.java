@@ -39,7 +39,7 @@ public class Mainn {
 
 	                Perro nuevoPerro = new Perro(nombre, edad, raza);
 	                perros.add(nuevoPerro);
-	                System.out.println("✅ Perro añadido.");
+	                System.out.println("Perro añadido.");
 	            } else if (tipo == 2) {
 	                System.out.print("Nombre del gato: ");
 	                String nombre = sc.nextLine();
@@ -50,7 +50,7 @@ public class Mainn {
 
 	                Gato nuevoGato = new Gato(nombre, edad, longitud);
 	                gatos.add(nuevoGato);
-	                System.out.println("✅ Gato añadido.");
+	                System.out.println("Gato añadido.");
 	            }
 	        } else if (eleccion == 2) {
 	            System.out.println("\n=== Lista de Perros ===");
@@ -63,7 +63,7 @@ public class Mainn {
 	                System.out.println(g);
 	            }
 	        } else if (eleccion == 0) {
-	            System.out.println("👋 Saliendo...");
+	            System.out.println("Saliendo...");
 	        } else {
 	            System.out.println("Opción no válida.");
 	        }
